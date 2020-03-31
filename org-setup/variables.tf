@@ -3,5 +3,5 @@ variable "github_token" {
 }
 
 variable "organization_name" {
-  description = "The name of organization
+  description = "The name of organization"
 }
