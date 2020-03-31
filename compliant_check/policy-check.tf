@@ -1,5 +1,5 @@
 data "github_repositories" "repos" {
-  query = var.organization_name
+  query = "org:${var.organization_name}"
 }
 
 resource "github_branch_protection" "this" {
